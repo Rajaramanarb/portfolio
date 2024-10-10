@@ -44,10 +44,10 @@ export const BentoGridItem = ({
   header?: React.ReactNode;
   icon?: React.ReactNode;
   id?: number,
-  img?: String,
-  imgClassName?: String,
-  titleClassName?: String;
-  spareImg?: String,
+  img?: string,
+  imgClassName?: string,
+  titleClassName?: string;
+  spareImg?: string,
 }) => {
   const [copied, setCopied] = useState(false);
 

@@ -67,7 +67,7 @@ const Card = ({
   title: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
-  description: String
+  description: string
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -114,7 +114,7 @@ const Card = ({
   );
 };
 
-const AceternityIcon = ({ order }: { order: String }) => {
+const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
         <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
