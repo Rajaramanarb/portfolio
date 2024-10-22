@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Rajaramana's Portfolio",
-  description: "Modern & Minimalist JS Mastery Portfolio",
+  description: "Experienced developer with over 6 years in the industry, proficient in Next.js, React.js, Node.js, PHP, Express, and GraphQL. Skilled in building dynamic, scalable, and high-performance web applications. Committed to delivering top-quality code and innovative solutions for complex problems",
 };
 
 export default function RootLayout({
